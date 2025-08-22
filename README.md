@@ -45,19 +45,19 @@ La durée moyenne de transcription a également été calculée pour chaque mod�
 
 ## Résultats moyens obtenus
 
-     Data    | Modèle           | WER moyen (%) | Durée moyenne (secondes) |
--------------|------------------|--------------:|-------------------------:|
-             | Vosk             |         50.66 |                     1.40 |
-Common Voice | Whisper (tiny)   |         49.04 |                     1.32 |
-             | Wav2Vec2 (base)  |         49.61 |                     0.54 |
--------------|------------------|--------------:|-------------------------:|
-             | Vosk             |         40.89 |                     1.57 |
- LibriSpeech | Whisper (tiny)   |         8.86  |                     1.34 |
-             | Wav2Vec2 (base)  |         2.50  |                     0.82 |
--------------|------------------|--------------:|-------------------------:|
-             | Vosk             |         44.61 |                     1.12 |
-  L2-ARCTIC  | Whisper (tiny)   |         31.18 |                     0.85 |
-             | Wav2Vec2 (base)  |         27.22 |                     0.32 |
+|    Data      | Modèle           | WER moyen (%) | Durée moyenne (secondes) |
+| -------------|------------------|--------------:|-------------------------:|
+|              | Vosk             |         50.66 |                     1.40 |
+| Common Voice | Whisper (tiny)   |         49.04 |                     1.32 |
+|              | Wav2Vec2 (base)  |         49.61 |                     0.54 |
+| -------------|------------------|--------------:|-------------------------:|
+|              | Vosk             |         40.89 |                     1.57 |
+| LibriSpeech  | Whisper (tiny)   |         8.86  |                     1.34 |
+|              | Wav2Vec2 (base)  |         2.50  |                     0.82 |
+| -------------|------------------|--------------:|-------------------------:|
+|              | Vosk             |         44.61 |                     1.12 |
+|  L2-ARCTIC   | Whisper (tiny)   |         31.18 |                     0.85 |
+|              | Wav2Vec2 (base)  |         27.22 |                     0.32 |
 
 
 # Classification des accents
@@ -72,17 +72,17 @@ Common Voice | Whisper (tiny)   |         49.04 |                     1.32 |
 
 Le modèle Wav2Vec2 s’est révélé être le plus performant globalement pour la classification des accents, avec un bon compromis entre précision, rappel et F1-score.
 
-     Modèle                 | Type         | Précision  | Recall | F1-score |
-----------------------------|--------------|-----------:|-------:|---------:|
-                            | Accuracy     |      -     |    -   |     0.87 |
-    Régression Logistique   | Macro avg    |       0.62 |   0.72 |     0.65 |
-                            | Weighted avg |       0.90 |   0.87 |     0.88 |
-----------------------------|--------------|-----------:|-------:|---------:|
-                            | Accuracy     |      -     |    -   |     0.89 |
-      Forêt Aléatoire       | Macro avg    |       0.58 |   0.50 |     0.52 |
-                            | Weighted avg |       0.88 |   0.89 |     0.87 |
-----------------------------|--------------|-----------:|-------:|---------:|
-                            | Accuracy     |      -     |    -   |     0.93 |
- W2V2 (CNN + Transformeurs) | Macro avg    |       0.73 |   0.71 |     0.70 |
-                            | Weighted avg |       0.94 |   0.93 |     0.94 |
+|           Modèle           |     Type     | Précision  | Recall | F1-score |
+|----------------------------|--------------|-----------:|-------:|---------:|
+|                            | Accuracy     |      -     |    -   |     0.87 |
+|    Régression Logistique   | Macro avg    |       0.62 |   0.72 |     0.65 |
+|                            | Weighted avg |       0.90 |   0.87 |     0.88 |
+|----------------------------|--------------|-----------:|-------:|---------:|
+|                            | Accuracy     |      -     |    -   |     0.89 |
+|      Forêt Aléatoire       | Macro avg    |       0.58 |   0.50 |     0.52 |
+|                            | Weighted avg |       0.88 |   0.89 |     0.87 |
+|----------------------------|--------------|-----------:|-------:|---------:|
+|                            | Accuracy     |      -     |    -   |     0.93 |
+| W2V2 (CNN + Transformeurs) | Macro avg    |       0.73 |   0.71 |     0.70 |
+|                            | Weighted avg |       0.94 |   0.93 |     0.94 |
 
