@@ -14,7 +14,7 @@ Ce projet a pour objectif d’évaluer plusieurs modèles de transcription autom
 Cloner le dépôt :  
 ```bash
 git clone https://github.com/MohammedLbkl/SpeechBench-Transcription-Accent-Classification-Evaluation
-cd accent-classification-asr
+cd SpeechBench-Transcription-Accent-Classification-Evaluation
 ```
 ### Installer les dépendances
 
