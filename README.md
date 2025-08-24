@@ -13,7 +13,7 @@ Ce projet a pour objectif d’évaluer plusieurs modèles de transcription autom
 
 Cloner le dépôt :  
 ```bash
-git clone https://github.com/ton-utilisateur/accent-classification-asr.git
+git clone https://github.com/MohammedLbkl/SpeechBench-Transcription-Accent-Classification-Evaluation
 cd accent-classification-asr
 ```
 ### Installer les dépendances
